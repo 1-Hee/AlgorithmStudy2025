@@ -12,7 +12,7 @@ public class boj5597_jwh {
         StringBuilder sb = new StringBuilder();
 
         int x = 0 ;
-
+        
         for(int i = 0 ; i < 28; i++){
             int n = sc.nextInt();
             x |= (1 << (n-1));

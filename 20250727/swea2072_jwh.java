@@ -17,7 +17,7 @@ public class swea2072_jwh {
             int sum = 0;
             for(int j = 0 ; j < 10 ; j ++){
                 int x = sc.nextInt();
-                int result = x & 1;
+                int result = x & 1;                
                 if(result > 0){
                     sum += x;
                 }
