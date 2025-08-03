@@ -17,9 +17,11 @@ public class swea1204_jwh {
         String prefix = "";
         for(int i = 0 ; i < n ; i ++){
             Arrays.fill(points, 0); // buffer clear
+
             int num = sc.nextInt();
             prefix = String.format("#%d ", num);
             sb.append(prefix);
+
             for(int j = 0 ; j < 1000; j ++){
                 int pointX = sc.nextInt();
                 points[pointX]++;

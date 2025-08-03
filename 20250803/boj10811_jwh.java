@@ -21,7 +21,7 @@ public class boj10811_jwh {
 
         for(int i = 0 ; i < m; i ++){
             int s = sc.nextInt() - 1;
-            int e = sc.nextInt() - 1;
+            int e = sc.nextInt() - 1;ik
             if(s == e) continue;
 
             int[] section = Arrays.copyOfRange(list, s, e+1);
