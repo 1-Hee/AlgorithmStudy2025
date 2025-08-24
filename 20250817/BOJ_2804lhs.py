@@ -20,6 +20,5 @@ for k in range(len(B)): # arr에 각각 가로, 세로에 입력
         arr[k][loc_A] = B[k]
         arr[loc_B][l] = A[l]
 
-
 for row in arr:
     print(*row, sep='') # 출력을 맞추기 위해 반복문 사용. 문자 사이 공백을 없에기 위해 separation을 사용

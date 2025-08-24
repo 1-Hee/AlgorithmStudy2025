@@ -17,5 +17,5 @@ while len(arr) < N: # while문 이용, 1을 1개, 2를 2개, 3을 3개... 리스
 
 for i in arr[A-1:B]: # 리스트 안의 A-1부터 B번째까지의 인덱스의 값을 더함(수열이 1부터 시작이므로 A-1)
     result += i
-
+print(arr)
 print(result)
