@@ -29,7 +29,7 @@ for i in Hm_list:
                     arr[A-k], arr[A+k] = 1, 1
                 elif arr[A-k] == 1:
                     arr[A-k], arr[A+k] = 0, 0
-            else: # 범위가 넘어가거나, 두 값이 다를 떄
+            else: # 두 값이 다를 때
                 break
 
 for l in range(N): # 출력형식을 맞추기 위해(각각 띄어서, 20개씩 끊어서 출력)

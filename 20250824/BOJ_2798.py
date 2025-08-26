@@ -3,7 +3,6 @@
 
 N, M = map(int,input().split()) # N : 카드의 개수, M : 목표 숫자
 arr = list(map(int, input().split())) # 카드에 쓰여있는 수 배멸
-x, y, z, = 0, 0, 0 # 3개의 카드를 정하기 위한 변수
 max_number = 0 # M을 넘지않은 최고값을 찾기위한 변수
 number = 0
 

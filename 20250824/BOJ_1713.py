@@ -9,6 +9,7 @@ rec_number = 0 # 추천 들어온 순서(시간)
 
 for i in rec_list:
     rec_number += 1
+
     if i in pic:        # pic에 있는지 없는지 판단, 있으면 추천수만 올리고 continue
         pic[i][0] += 1
         continue
@@ -23,6 +24,3 @@ for i in rec_list:
 
 ans = sorted(pic.keys()) # 학생 번호를 오름차순으로 정렬렬
 print(ans)
-
-
-
