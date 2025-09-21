@@ -20,23 +20,3 @@ while True:
 
     backtrack(0, 0) # k : 카드갯수 0부터 시작, start : 시작인덱스 0부터 시작
     print() # 출력마다 띄어쓰기 위함
-
-while True:
-    data = list(map(int, input().split()))
-    K = data[0]
-    if K == 0:
-        break
-    S = data[1:]
-    pick = [0] * 6
-
-    def backtrack(k, start):
-        if k == 6:
-            print(*pick)
-
-        else:
-            for i in range(start, K):
-                pick[k] = S[i]
-                backtrack(k + 1, i + 1)
-
-    backtrack(0, 0)
-    print()

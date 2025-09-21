@@ -15,7 +15,7 @@ for tc in range(1, 1+T):
                 return False
 
             # 열과 행의 차이의 절댓값이 같다 = 현재 col의 대각선이라는 뜻이므로로
-            if abs(row- prev_row) == abs(visited[row] - visited[prev_row]):
+            if abs(row - prev_row) == abs(visited[row] - visited[prev_row]):
                 return False
 
         return True
