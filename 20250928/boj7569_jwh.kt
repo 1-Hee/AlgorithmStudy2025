@@ -39,9 +39,13 @@ class TomatoInspector2(
             for(i in 0 until queue.size){
                 val pos:IntArray = queue.poll()
                 for(d in 0 until 6){
-                    val nz = pos[2] + dz[d]
+//                    val nz = pos[2] + dz[d]
+//                    val ny = pos[1] + dy[d]
+//                    val nx = pos[0] + dx[d]
+                    val nz = pos[0] + dz[d]
                     val ny = pos[1] + dy[d]
-                    val nx = pos[0] + dx[d]
+                    val nx = pos[2] + dx[d]
+
 
                     if(checkRange(nx, ny, nz)) { continue } // range check
                     if(isVisited[nz][ny][nx]) { continue } // visit check
@@ -74,7 +78,7 @@ class TomatoInspector2(
 }
 
 fun main(){
-    System.setIn(FileInputStream("data/250928/boj7569.txt"))
+    // System.setIn(FileInputStream("data/250928/boj7569.txt"))
     val br = BufferedReader(InputStreamReader(System.`in`))
     var st = StringTokenizer(br.readLine())
 
