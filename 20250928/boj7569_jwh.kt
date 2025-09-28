@@ -42,7 +42,6 @@ class TomatoInspector2(
 //                    val nz = pos[2] + dz[d]
 //                    val ny = pos[1] + dy[d]
 //                    val nx = pos[0] + dx[d]
-                    // ㅋㅋㅋ 바보바보
                     val nz = pos[0] + dz[d]
                     val ny = pos[1] + dy[d]
                     val nx = pos[2] + dx[d]
