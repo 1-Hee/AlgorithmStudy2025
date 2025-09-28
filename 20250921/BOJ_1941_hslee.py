@@ -8,8 +8,8 @@ def recur(idx, cnt, y_cnt):
         return
 
     if cnt == 7:    # 7명을 다 골랐으면
-        if connect():   # 연결 되어있는지를 connect로 확인 -> 연결 되어있으면 True
-            result += 1 # 연결 되어있으면 result에 += 1
+        if connect():   # 연결 되어있는지를 connect 로 확인 -> 연결 되어있으면 True
+            result += 1 # 연결 되어있으면 result 에 += 1
         return
 
     for i in range(idx, 25):    # 인덱스를 반복문으로 순회하면서 pick 되어있다면 continue
@@ -40,11 +40,12 @@ def connect():
             ni = ny * 5 + nx
 
             if 0 <= ny < 5 and 0 <= nx < 5: # 범위 넘어가지 않게
-                if ni in pick and ni not in visited:    # pick에 포함되어 있고 visited 하지 않았으면
+
+                if ni in pick and ni not in visited:    # pick 에 포함되어 있고 visited 하지 않았으면
                     visited.append(ni)  # 방문
                     q.append(ni)        # q에 추가
 
-    return len(visited) == 7    # visited가 7이면 연결되있음 = True
+    return len(visited) == 7    # visited 가 7이면 연결되있음 = True
 
 dy = [-1, 1, 0, 0]  # 벡터
 dx = [0, 0, -1, 1]

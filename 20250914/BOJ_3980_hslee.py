@@ -26,7 +26,7 @@ for tc in range(1, 1+T):
             status = status + arr[row][col] # status에 능력을 계속 더함
             visited[col] = 1    # 더할때 마다 그때의 visited[col]을 체크
             recur(row + 1)      # 재귀 (다음 행을 확인)
-            status = status - arr[row][col]
+            status = status - arr[row][col] # 빠꾸뜨렉깅
             visited[col] = 0
 
     recur(0)

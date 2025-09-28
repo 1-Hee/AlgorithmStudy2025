@@ -8,9 +8,9 @@ dist[N] = 0     # 처음 수빈 위치 방문처리
 q = [N]         # 큐 시작지점
 head = 0        # 리스트를 큐 처럼 쓰기위한 head값
 
-
 def search():
     global head
+
     if N >= K: # 수빈이 동생보다 크거나 같은 값에 위치하면 - 만 하면 됨 (가지치기)
         print(N - K)
         return
