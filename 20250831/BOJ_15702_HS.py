@@ -4,6 +4,7 @@
 N, M = map(int, input().split()) # N개의 문제, M명의 사람 수
 grade_list = list(map(int, input().split())) # 문제의 배점
 arr = [list(input().split()) for _ in range(M)] # 채점 결과
+
 people = 100001 # 수험번호 고르기 위한 변수
 max_grade = -1 # 최고점 구하기 위한 변수
 

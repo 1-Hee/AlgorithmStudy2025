@@ -5,7 +5,7 @@ K = int(input())
 dirs = [] # 방향 (1: 동, 2: 서, 3: 남, 4: 북)
 lens = [] # 길이
 max_w, max_h = 0, 0 # 최대 길이, 높이
-w = h = 0
+w = h = 0 # 최저 길이, 높이
 
 for _ in range(6):
     A, B = map(int, input().split())

@@ -19,4 +19,3 @@ for i in range(len(arr)-1): # 정수의 길이에서 -1만큼 반복(마지막�
         uphill = 0 # 오르막길이 아니므로 uphill을 초기화 해줌
 
 print(max_uphill)
-

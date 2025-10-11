@@ -1,6 +1,5 @@
 # SWEA_11315 : 오목 판정
 # https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXaSUPYqPYMDFASQ
-import sys; sys.stdin = open('sample_input.txt')
 
 T = int(input())
 dr = [-1, 1, 1, -1] # 우상부터 시계방향순

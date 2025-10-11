@@ -12,7 +12,7 @@ public class swea11315_jwh {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int tCase = Integer.parseInt(br.readLine());
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();~
 
         for(int t = 1 ; t <= tCase ; t++){
             int n = Integer.parseInt(br.readLine());

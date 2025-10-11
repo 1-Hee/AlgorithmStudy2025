@@ -10,7 +10,7 @@ x, y = 0, 0
 dr = [1, -1]
 dc = [1, 1]
 
-for i in range(19):
+for i in range(19): # 가로가 오목인 경우
     B_count = 0
     W_count = 0
     for j in range(19):
@@ -22,6 +22,7 @@ for i in range(19):
                     if Winner == 0:
                         Winner = 1
                         x, y = i + 1, (j - 4) + 1
+
         elif arr[i][j] == 2:
             W_count += 1
             B_count = 0
@@ -46,6 +47,7 @@ for i in range(19):
                     if Winner == 0:
                         Winner = 1
                         x, y = (j - 4) + 1, i + 1
+
         elif arr[j][i] == 2:
             W_count += 1
             B_count = 0
