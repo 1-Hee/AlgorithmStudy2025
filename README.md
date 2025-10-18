@@ -32,6 +32,7 @@
 ---
 
 # 알고리즘 스터디 일정
+
 <table>
   <thead>
       <tr>
@@ -338,6 +339,24 @@
             </td>
             <td></td>
         </tr>        
+        <tr>
+            <td>13</td>
+            <td>2025-10-19</td>
+            <td>
+                <ul>
+                <li>
+                    <a href="https://www.acmicpc.net/problem/2589">보물섬</a>
+                </li>
+                <li>
+                    <a href="https://www.acmicpc.net/problem/2636">치즈</a>
+                </li>
+                </ul>
+            </td>
+            <td>
+                <a href="./20251019/">20251019</a>
+            </td>
+            <td></td>
+        </tr>
       <!-- 복사용 탬플릿 -->
       <!--
       <tr>
