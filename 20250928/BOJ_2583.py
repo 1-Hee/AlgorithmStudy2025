@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open ('2583.txt', 'r')
-
 M, N, K = map(int, input().split()) # M : 행, N : 열, K : 직사각형갯수
 arr = [[0] * N for _ in range(M)]
 dy = [-1, 1, 0, 0] # 델타

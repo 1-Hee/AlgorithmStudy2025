@@ -38,6 +38,7 @@ def recur():
                 if three_dimension_arr[z][y][x] == 0:
                     print(-1)
                     return
+
                 result = max(result, three_dimension_arr[z][y][x])
     print(result - 1)
 
