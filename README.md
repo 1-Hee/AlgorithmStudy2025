@@ -357,6 +357,24 @@
             </td>
             <td></td>
         </tr>
+        <tr>
+            <td>14</td>
+            <td>2025-10-26</td>
+            <td>
+                <ul>
+                <li>
+                    <a href="https://www.acmicpc.net/problem/2660">회장뽑기</a>
+                </li>
+                <li>              
+                    <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo">[모의 SW 역량테스트] 벽돌 깨기</a>
+                </li>
+                </ul>
+            </td>
+            <td>
+                <a href="./20251026/">20251026</a>
+            </td>
+            <td></td>
+        </tr>        
       <!-- 복사용 탬플릿 -->
       <!--
       <tr>
