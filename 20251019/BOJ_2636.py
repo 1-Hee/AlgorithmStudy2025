@@ -47,6 +47,3 @@ while True:
 
 print(time)
 print(last)
-
-
-
