@@ -46,4 +46,4 @@ while True:
     time +=1
 
 print(time)
-print(last)
+print(last) #결과
