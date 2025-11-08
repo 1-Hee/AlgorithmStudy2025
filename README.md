@@ -374,7 +374,31 @@
                 <a href="./20251026/">20251026</a>
             </td>
             <td></td>
-        </tr>        
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>2025-11-09</td>
+            <td>
+                <ul>
+                <li>
+                    <a href="https://www.acmicpc.net/problem/17471">게리맨더링</a>
+                </li>
+                <li>              
+                    <a href="https://www.acmicpc.net/problem/17144">미세먼지 안녕!</a>
+                </li>
+                <li>
+                    <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu">[모의 SW 역량테스트] 홈 방범 서비스</a>
+                </li>
+                <li>              
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/1844">게임 맵 최단거리</a>
+                </li>
+                </ul>
+            </td>
+            <td>
+                <a href="./20251109/">20251109</a>
+            </td>
+            <td></td>
+        </tr>          
       <!-- 복사용 탬플릿 -->
       <!--
       <tr>
