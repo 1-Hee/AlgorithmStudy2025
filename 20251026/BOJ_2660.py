@@ -27,7 +27,7 @@ for i in range(1, N + 1):   # 인덱스 1번(사람이 1번부터이므로)를 �
 
     scores[i] = max(friend_dist[1:])    # dist에서 (인덱스0제외) 가장 큰값 추출
 
-min_score = min(scores[1:]) # 스코어값이 작은값(회장의 자1질을 가진자)를 추출
+min_score = min(scores[1:]) # 스코어값이 작은값(회장의 자1지ㄹ를 가진자)를 추출
 number = [i for i in range(1, N + 1) if scores[i] == min_score] # 스코어에서 min_score와 값이 값은 사람을 number에 넣기
 
 print(min_score, len(number))   # 출@력
