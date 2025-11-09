@@ -5,7 +5,7 @@ N = int(input())
 arr = [0] + list(map(int, input().split()))
 adj = [[] for _ in range(N + 1)]
 
-for i in range(1, N + 1):
+for i in range(1, N + 1):   #
     data = list(map(int, input().split()))
     c = data[0]
 
@@ -15,25 +15,6 @@ for i in range(1, N + 1):
 groupA = []
 groupB = []
 ans = 10**9
-
-def is_connected(group, adj, N):
-    if not group:
-        return False
-    visited = [False] * (N + 1)
-    stack = [group[0]]
-    visited[group[0]] = True
-    cnt = 1
-
-    while stack:
-        cur = stack.pop()
-        for nxt in adj[cur]:
-            if nxt in group and not visited[nxt]:
-                visited[nxt] = True
-                stack.append(nxt)
-                cnt += 1
-
-    return cnt == len(group)
-
 
 def dfs(idx):
     global ans
@@ -55,6 +36,24 @@ def dfs(idx):
     groupB.append(idx)
     dfs(idx + 1)
     groupB.pop()
+
+def is_connected(group, adj, N):
+    if not group:
+        return False
+    visited = [False] * (N + 1)
+    stack = [group[0]]
+    visited[group[0]] = True
+    cnt = 1
+
+    while stack:
+        cur = stack.pop()
+        for nxt in adj[cur]:
+            if nxt in group and not visited[nxt]:
+                visited[nxt] = True
+                stack.append(nxt)
+                cnt += 1
+
+    return cnt == len(group)
 
 dfs(1)
 
