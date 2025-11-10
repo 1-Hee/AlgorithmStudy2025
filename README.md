@@ -398,7 +398,31 @@
                 <a href="./20251109/">20251109</a>
             </td>
             <td></td>
-        </tr>          
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>2025-11-16</td>
+            <td>
+                <ul>
+                <li>
+                    <a href="https://www.acmicpc.net/problem/1182">부분수열의 합</a>
+                </li>
+                <li>              
+                    <a href="https://www.acmicpc.net/problem/2961">도영이가 만든 맛있는 음식</a>
+                </li>
+                <li>
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/131697">가장 비싼 상품 구하기</a>
+                </li>
+                <li>              
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/133024">인기있는 아이스크림</a>
+                </li>
+                </ul>
+            </td>
+            <td>
+                <a href="./20251116/">20251116</a>
+            </td>
+            <td>SQL 문제 시작</td>
+        </tr>                   
       <!-- 복사용 탬플릿 -->
       <!--
       <tr>
