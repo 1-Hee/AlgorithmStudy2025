@@ -5,7 +5,7 @@ N = int(input())
 arr = [0] + list(map(int, input().split()))
 adj = [[] for _ in range(N + 1)]
 
-for i in range(1, N + 1):   #
+for i in range(1, N + 1):
     data = list(map(int, input().split()))
     c = data[0]
 

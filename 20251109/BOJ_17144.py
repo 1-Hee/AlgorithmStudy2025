@@ -6,7 +6,7 @@ arr = [list(map(int, input().split())) for _ in range(R)]
 dy = [-1, 1, 0, 0]  # 상하좌우 델타
 dx = [0, 0, -1, 1]
 
-air_filter = []     # 공기청정기의 위치를 찾기 위함
+air_filter =  []    # 공기청정기의 위치를 찾기 위함
 for i in range(R):
     if arr[i][0] == -1:   # 공청기가 있으면
         air_filter.append(i)    # 추가
@@ -57,7 +57,6 @@ def circulate():    # 공청기 작동(순환) 함수
         arr[bottom][c] = arr[bottom][c-1]
     arr[bottom][1] = 0                      # 공청기 바람 나오는곳은 0으로
 
-
 for _ in range(T):  # T번 반복하면서 두 함수를 실행
     diffuse()
     circulate()
@@ -70,9 +69,3 @@ for r in range(R):
             result += arr[r][c]
 
 print(result)
-
-
-
-
-
-
