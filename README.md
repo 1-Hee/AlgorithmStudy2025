@@ -422,7 +422,28 @@
                 <a href="./20251116/">20251116</a>
             </td>
             <td>SQL 문제 시작</td>
-        </tr>                   
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>2025-11-23</td>
+            <td>
+                <ul>
+                <li>
+                    <a href="https://www.acmicpc.net/problem/21396">이진수 더하기</a>
+                </li>
+                <li>
+                    <a href="https://www.acmicpc.net/problem/24389">2의 보수</a>
+                </li>
+                <li>              
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/131536">재구매가 일어난 상품과 회원 리스트 구하기</a>
+                </li>
+                </ul>
+            </td>
+            <td>
+                <a href="./20251116/">20251116</a>
+            </td>
+            <td>SQL 문제 시작</td>
+        </tr>                                      
       <!-- 복사용 탬플릿 -->
       <!--
       <tr>
