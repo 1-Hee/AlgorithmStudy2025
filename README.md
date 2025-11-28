@@ -443,7 +443,28 @@
                 <a href="./20251123/">20251123</a>
             </td>
             <td></td>
-        </tr>                                      
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>2025-11-30</td>
+            <td>
+                <ul>
+                <li>
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/276034">조건에 맞는 개발자 찾기</a>
+                </li>
+                <li>
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42584">주식 가격</a>
+                </li>
+                <li>              
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12914">멀리 뛰기</a>
+                </li>
+                </ul>
+            </td>
+            <td>
+                <a href="./20251130/">20251130</a>
+            </td>
+            <td>JavaScript 문제 시작</td>
+        </tr>
       <!-- 복사용 탬플릿 -->
       <!--
       <tr>
