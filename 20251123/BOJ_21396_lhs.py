@@ -15,4 +15,4 @@ for _ in range(T):
         answer += freq.get(need, 0)
         freq[a] = freq.get(a, 0) + 1
 
-    print(answer)
+    print(answer)~

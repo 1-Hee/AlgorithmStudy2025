@@ -1,9 +1,9 @@
-import sys
-sys.stdin = open('24389.txt', 'r')
+# import sys
+# sys.stdin = open('24389.txt', 'r')
 
 N = int(input())
 
-Bin = format(N, '032b') # 주어진 N을 32자리 이진수로 변환
+Bin = format(N, '064b') # 주어진 N을 32자리 이진수로 변환
 arr = []                # 이후 이진수를 넣을 배열
 
 for i in Bin:   # 변환한 이진수를 하나하나 비교, 반전하기위한 준비
@@ -22,6 +22,3 @@ for i in range(32): # 반복문을 돌면서 2의 보수와 다른 비트수를 
     if Bin[i] != change_bin[i]:
         cnt += 1
 print(cnt)
-
-
-
