@@ -465,6 +465,27 @@
             </td>
             <td>JavaScript 문제 시작</td>
         </tr>
+        <tr>
+            <td>19</td>
+            <td>2025-12-07</td>
+            <td>
+                <ul>
+                <li>
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/77485">행렬 테두리 회전하기</a>
+                </li>
+                <li>
+                    <a href="hhttps://school.programmers.co.kr/learn/courses/30/lessons/12910">나누어 떨어지는 숫자 배열</a>
+                </li>
+                <li>              
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/59044">오랜 기간 보호한 동물(1)</a>
+                </li>
+                </ul>
+            </td>
+            <td>
+                <a href="./20251207/">20251207</a>
+            </td>
+            <td></td>
+        </tr>        
       <!-- 복사용 탬플릿 -->
       <!--
       <tr>
