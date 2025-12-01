@@ -474,7 +474,7 @@
                     <a href="https://school.programmers.co.kr/learn/courses/30/lessons/77485">행렬 테두리 회전하기</a>
                 </li>
                 <li>
-                    <a href="hhttps://school.programmers.co.kr/learn/courses/30/lessons/12910">나누어 떨어지는 숫자 배열</a>
+                    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12910">나누어 떨어지는 숫자 배열</a>
                 </li>
                 <li>              
                     <a href="https://school.programmers.co.kr/learn/courses/30/lessons/59044">오랜 기간 보호한 동물(1)</a>
